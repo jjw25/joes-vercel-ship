@@ -6,7 +6,7 @@ import { CardContent, CardTitle, CardDescription, CardHeader, Card } from "@/com
 
 export default function Component() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-cyan-500">
+    <div className="flex items-center justify-center min-h-full bg-cyan-500">
       <div className="max-w-lg mx-auto bg-cyan-500 p-6 rounded-lg shadow-offset-black offset-x-10 offset-y-10">
         <Card className="p-6 font-poppins">
           <CardContent className="text-xl relative mb-2">
